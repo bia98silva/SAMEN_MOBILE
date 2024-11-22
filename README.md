@@ -47,6 +47,12 @@ Firebase: Utilizado para armazenamento e autenticação.
 - **Firebase**:
 - **Firebase Authentication**: Para gerenciar a autenticação dos usuários.
 - **Firebase Firestore**: Para armazenar os dados de cadastro dos usuários.
+
+## Integrantes
+**Turma 2TSDSPS:**
+- **Vitor Onofre Ramos** | RM553241
+- **Pedro Henrique** | RM553801
+- **Beatriz Silva** | RM552600
 - **Kotlin**: Linguagem de programação utilizada para o desenvolvimento da aplicação.
 - **ConstraintLayout**: Layout utilizado para criar interfaces responsivas.
 
