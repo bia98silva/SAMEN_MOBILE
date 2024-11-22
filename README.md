@@ -53,3 +53,9 @@ Firebase: Utilizado para armazenamento e autenticação.
 Link do video: https://youtu.be/fBuWEtuVZ18
 
 Lindo do Figma: 
+
+## Integrantes
+**Turma 2TSDSPS:**
+- **Vitor Onofre Ramos** | RM553241
+- **Pedro Henrique** | RM553801
+- **Beatriz Silva** | RM552600
