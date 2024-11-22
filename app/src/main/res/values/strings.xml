@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SAMEN</string>
+    <string name="entrar">Entrar\n</string>
+    <string name="text_cadastro">Cadastro\n</string>
+    <string name="cadastrar">Cadastrar</string>
+</resources>

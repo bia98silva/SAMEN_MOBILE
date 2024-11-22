@@ -1,0 +1,150 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".MonitoramentoActivity">
+
+    <TextView
+        android:id="@+id/tvSaudacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Olá, [Nome]"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTitleMonitoramento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Monitoramento da Usina"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSaudacao" />
+
+    <LinearLayout
+        android:id="@+id/btnTemperatura"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleMonitoramento"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/ivTemperatura"
+            android:layout_width="94dp"
+            android:layout_height="67dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_nucleo" />
+
+        <TextView
+            android:id="@+id/tvTemperatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Temperatura do Núcleo"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnPressao"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnTemperatura"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/ivPressao"
+            android:layout_width="94dp"
+            android:layout_height="64dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_pressao" />
+
+        <TextView
+            android:id="@+id/tvPressao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Pressão"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnRadiacao"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnPressao"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/ivRadiacao"
+            android:layout_width="107dp"
+            android:layout_height="72dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_radiacao" />
+
+        <TextView
+            android:id="@+id/tvRadiacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Níveis de Radiação"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/btnModificarCadastro"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnRadiacao"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/ivModificarCadastro"
+            android:layout_width="94dp"
+            android:layout_height="67dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_login" />
+
+        <TextView
+            android:id="@+id/tvModificarCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Modificar Cadastro"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
