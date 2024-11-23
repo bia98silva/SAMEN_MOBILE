@@ -52,7 +52,7 @@ Firebase: Utilizado para armazenamento e autenticação.
 
 Link do video: https://youtu.be/fBuWEtuVZ18
 
-Link do Figma: 
+Link do Figma: https://www.figma.com/design/3HaTKU1Igz2mImtEcHLMFt/Untitled?node-id=0-1&t=MD64P40u8zpe74om-1
 
 ## Integrantes
 **Turma 2TSDSPS:**
